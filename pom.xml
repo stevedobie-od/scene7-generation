@@ -35,7 +35,9 @@
 					<args>
 						<arg>-B-XautoNameResolution</arg>
 					</args>
-					<wsdlDirectory>${basedir}/src/main/resources/wsdl</wsdlDirectory>
+					<wsdlUrls>
+						<wsdlUrl>https://s7sps1apissl-staging.scene7.com/scene7/webservice/IpsApi-2014-04-03.wsdl</wsdlUrl>
+					</wsdlUrls>
 					<packageName>com.sdobie.generated.scene7</packageName>
 					<keep>true</keep>
 					<sourceDestDir>${basedir}/target/generated/src/main/java</sourceDestDir>
